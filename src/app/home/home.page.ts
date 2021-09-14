@@ -16,7 +16,7 @@ export class HomePage {
   public mensajeError = {
     email: [
       { type: 'required', message: 'Email es requerido' },
-      { type: 'pattern', message: 'Ingrese un email valido' }
+      { type: 'pattern', message: 'Ingrese un email válido' }
     ]
   };
 

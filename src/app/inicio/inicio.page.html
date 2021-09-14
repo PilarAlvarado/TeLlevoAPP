@@ -1,9 +1,21 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>inicio</ion-title>
-  </ion-toolbar>
+<ion-header class="ion-no-border ion-text-center">
+    <ion-toolbar>
+        <ion-title>Inicio</ion-title>
+    </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+    <ion-card>
+        <ion-card-content>
+            <ion-item lines="none">
+                <ion-label>
+                    Bienvenid@
+                </ion-label>
+                <ion-label>
+                    <ion-icon slot="start" name="person-circle-outline"></ion-icon>
+                    <p slot="end">{{dato}}</p>
+                </ion-label>
+            </ion-item>
+        </ion-card-content>
+    </ion-card>
 </ion-content>
